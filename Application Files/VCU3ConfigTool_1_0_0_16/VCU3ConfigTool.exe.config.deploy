@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="VCU3ConfigTool.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="VCU3ConfigTool.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8.1"/>
+    </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.1.4.0" newVersion="4.1.4.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Buffers" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.0.1.2" newVersion="4.0.1.2"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Text.Encoding.CodePages" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Security.Cryptography.Xml" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="MathNet.Numerics" publicKeyToken="cd8b63ad3d691a37" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Configuration.ConfigurationManager" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="ICSharpCode.SharpZipLib" publicKeyToken="1b03e6acf1164f73" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-1.4.2.13" newVersion="1.4.2.13"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.1" newVersion="4.2.0.1"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="LiteDB" publicKeyToken="4ee40123013c9f27" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-5.0.17.0" newVersion="5.0.17.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Reactive" publicKeyToken="94bc3704cddfc263" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-9.0.0.0" newVersion="9.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Auth" publicKeyToken="4b01fa6e34db77ab" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-1.66.0.0" newVersion="1.66.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Core" publicKeyToken="4b01fa6e34db77ab" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-1.66.0.0" newVersion="1.66.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis" publicKeyToken="4b01fa6e34db77ab" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-1.66.0.0" newVersion="1.66.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Storage.v1" publicKeyToken="4b01fa6e34db77ab" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-1.66.0.3291" newVersion="1.66.0.3291"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.DependencyInjection.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.WindowsAPICodePack.Core" publicKeyToken="8afb38e9204fc0a9" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Krypton.Toolkit" publicKeyToken="a87e673e9ecb6e8e" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-80.23.11.318" newVersion="80.23.11.318"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Krypton.Docking" publicKeyToken="a87e673e9ecb6e8e" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-80.23.11.318" newVersion="80.23.11.318"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Krypton.Navigator" publicKeyToken="a87e673e9ecb6e8e" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-80.23.11.318" newVersion="80.23.11.318"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Krypton.Ribbon" publicKeyToken="a87e673e9ecb6e8e" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-80.23.11.318" newVersion="80.23.11.318"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.IO.RecyclableMemoryStream" publicKeyToken="31bf3856ad364e35" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <userSettings>
+    <VCU3ConfigTool.Properties.Settings>
+      <setting name="blue" serializeAs="String">
+        <value>Blue</value>
+      </setting>
+    </VCU3ConfigTool.Properties.Settings>
+  </userSettings>
+  <applicationSettings>
+    <VCU3ConfigTool.Properties.Settings>
+      <setting name="blue1" serializeAs="String">
+        <value>SeaGreen</value>
+      </setting>
+    </VCU3ConfigTool.Properties.Settings>
+  </applicationSettings>
+</configuration>
